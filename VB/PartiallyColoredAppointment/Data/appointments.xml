@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Items>
+<Appointment Start="07/12/2010 11:05:00" End="07/12/2010 14:30:00" Description="Rent this car " Label="2" Location="city" ResourceId="1" Status="3" Subject="Mr.Brown" Price="8" />
+<Appointment Start="07/14/2010 08:15:00" End="07/16/2010 16:40:00" Description="Scheduled repair of this car" Label="4" Location="Service Center" ResourceId="1" Status="2" Subject="Repair" Price="90"/>
+<Appointment Start="07/13/2010 10:00:00" End="07/15/2010 17:00:00" Description="Rent this car" Label="3" Location="city" ResourceId="1" Status="3" Subject="Mr.White" Price="10" />
+<Appointment Type="1" Start="07/05/2010 16:40:00" End="07/05/2010 17:50:00" Description="Wash this car in the garage" Label="1" Location="Garage" ResourceId="1" Status="1" Subject="Wash" Price="7" >
+    <RecurrenceInfo AllDay="False" DayNumber="1" WeekOfMonth="0" WeekDays="62" Id="975889a8-ea37-4625-a1ec-0fb2806199e2" Month="12" OccurrenceCount="1" Periodicity="1" Range="2" Start="07/05/2010 16:30:00" End="08/01/2010 00:00:00" Type="1" /></Appointment>
+<Appointment Type="3" Start="07/13/2010 18:30:00" End="07/13/2010 20:00:00" Description="Wash this car in the garage" Label="1" Location="Garage" Status="1" Subject="Wash" Price="5" >
+    <RecurrenceInfo Id="975889a8-ea37-4625-a1ec-0fb2806199e2" Index="6" /></Appointment>
+<Appointment Type="4" Start="07/14/2010 16:20:00" End="07/14/2010 17:40:00" Description="Wash this car in the garage" Label="1" Location="Garage" Status="1" Subject="Wash" Price="6" >
+    <RecurrenceInfo Id="975889a8-ea37-4625-a1ec-0fb2806199e2" Index="7" />
+    <Reminder AlertTime="07/14/2010 16:15:00" TimeBeforeStart="00:15:00" /></Appointment>
+<Appointment Type="3" Start="07/20/2010 15:00:00" End="07/20/2010 16:30:00" Description="Wash this car in the garage" Label="1" Location="Garage" Status="1" Subject="Wash" Price="5" >
+    <RecurrenceInfo Id="975889a8-ea37-4625-a1ec-0fb2806199e2" Index="11" />
+    <Reminder AlertTime="07/20/2010 14:45:00" TimeBeforeStart="00:15:00" /></Appointment>
+<Appointment Type="3" Start="07/22/2010 16:30:00" End="07/22/2010 17:00:00" Description="Wash this car in the garage" Label="1" Location="Garage" Status="1" Subject="Wash" Price="5" >
+    <RecurrenceInfo Id="975889a8-ea37-4625-a1ec-0fb2806199e2" Index="13" />
+    <Reminder AlertTime="07/22/2010 16:15:00" TimeBeforeStart="00:15:00" /></Appointment>
+<Appointment Type="4" Start="07/11/2010 16:25:00" End="07/11/2010 17:45:00" Description="Wash this car in the garage" Label="1" Location="Garage" Status="1" Subject="Wash" Price="6" >
+    <RecurrenceInfo Id="975889a8-ea37-4625-a1ec-0fb2806199e2" Index="4" />
+    <Reminder AlertTime="07/11/2010 16:15:00" TimeBeforeStart="00:15:00" /></Appointment>
+<Appointment Start="07/15/2010 19:45:00" End="07/15/2010 22:45:00" Description="Check up after maintenance" Label="5" Location="Service Center" ResourceId="1" Status="4" Subject="Check up" Price="45" />
+<Appointment Start="07/11/2010 00:00:00" End="07/12/2010 00:00:00" AllDay="True" Description="Rent this car for the all day" Label="3" Location="city" ResourceId="1" Status="3" Subject="Mr.Green" Price="6" />
+<Appointment Type="1" Start="07/11/2010 07:30:00" End="07/11/2010 08:45:00" Description="Wash this car in the garage" Label="2" Location="Garage" ResourceId="3" Status="1" Subject="Wash" Price="4">
+    <RecurrenceInfo AllDay="False" DayNumber="1" WeekOfMonth="0" WeekDays="42" Id="51c81018-53fa-4d10-925f-2ed7f8408c75" Month="12" OccurrenceCount="1" Periodicity="1" Range="2" Start="07/11/2010 07:00:00" End="08/24/2010 01:00:00" Type="1" /></Appointment>
+<Appointment Type="3" Start="07/20/2010 01:30:00" End="07/20/2010 09:00:00" Description="Wash this car in the garage" Label="2" Location="Garage" Status="1" Subject="Wash" Price="6">
+    <RecurrenceInfo Id="51c81018-53fa-4d10-925f-2ed7f8408c75" Index="4" />
+    <Reminder AlertTime="07/20/2010 01:15:00" TimeBeforeStart="00:15:00" /></Appointment>
+<Appointment Start="07/11/2010 10:00:00" End="07/12/2010 11:45:00" Description="Rent this car" Label="3" Location="out-of-town" ResourceId="3" Status="3" Subject="Mrs.Black" Price="5" />
+<Appointment Start="07/12/2010 13:00:00" End="07/12/2010 14:30:00" Description="Rent this car" Label="3" Location="out-of-town" ResourceId="3" Status="3" Subject="Mrs.Black" Price="6" />
+<Appointment Start="07/13/2010 15:30:00" End="07/14/2010 14:00:00" Description="Rent this car" Label="3" Location="out-of-town" ResourceId="3" Status="3" Subject="Mrs.Black" Price="4" />
+</Items>

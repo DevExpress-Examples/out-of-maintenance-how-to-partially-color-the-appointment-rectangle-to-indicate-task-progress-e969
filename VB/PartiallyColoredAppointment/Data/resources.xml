@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Items>
+<Resource Caption="Mercedes-Benz (CLK55 AMG Cabriolet)" Id="1" Category="SPORTS" />
+<Resource Caption="Rolls-Royce (Corniche)" Id="2" Category="SPORTS" />
+<Resource Caption="Jaguar" Id="3" Category="SPORTS" />
+<Resource Caption="Lexus" Id="4" Category="SALOON" />
+<Resource Caption="Toyota" Id="5" Category="SALOON" />
+<Resource Caption="Nissan" Id="6" Category="SALOON" />
+<Resource Caption="Ford" Id="7" Category="SALOON" />
+</Items>
