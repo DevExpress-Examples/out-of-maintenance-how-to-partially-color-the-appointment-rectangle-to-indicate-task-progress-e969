@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/PartiallyColoredAppointment/Form1.cs) (VB: [Form1.vb](./VB/PartiallyColoredAppointment/Form1.vb))
+<!-- default file list end -->
 # How to partially color the appointment rectangle to indicate task progress
 
 
