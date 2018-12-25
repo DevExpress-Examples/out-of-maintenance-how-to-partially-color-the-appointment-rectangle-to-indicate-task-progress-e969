@@ -27,7 +27,7 @@ namespace SchedulerProject {
             DevExpress.XtraScheduler.TimeRuler timeRuler1 = new DevExpress.XtraScheduler.TimeRuler();
             DevExpress.XtraScheduler.TimeRuler timeRuler2 = new DevExpress.XtraScheduler.TimeRuler();
             this.schedulerControl1 = new DevExpress.XtraScheduler.SchedulerControl();
-            this.schedulerStorage1 = new DevExpress.XtraScheduler.SchedulerStorage(this.components);
+            this.schedulerDataStorage1 = new DevExpress.XtraScheduler.SchedulerDataStorage(this.components);
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.cbView = new DevExpress.XtraEditors.ImageComboBoxEdit();
             this.lblView = new DevExpress.XtraEditors.LabelControl();
@@ -35,7 +35,7 @@ namespace SchedulerProject {
             this.rgrpGrouping = new DevExpress.XtraEditors.RadioGroup();
             this.dateNavigator1 = new DevExpress.XtraScheduler.DateNavigator();
             ((System.ComponentModel.ISupportInitialize)(this.schedulerControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.schedulerStorage1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.schedulerDataStorage1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.cbView.Properties)).BeginInit();
@@ -50,7 +50,7 @@ namespace SchedulerProject {
             this.schedulerControl1.Name = "schedulerControl1";
             this.schedulerControl1.Size = new System.Drawing.Size(607, 469);
             this.schedulerControl1.Start = new System.DateTime(2008, 12, 3, 0, 0, 0, 0);
-            this.schedulerControl1.Storage = this.schedulerStorage1;
+            this.schedulerControl1.DataStorage = this.schedulerDataStorage1;
             this.schedulerControl1.TabIndex = 0;
             this.schedulerControl1.Text = "schedulerControl1";
             this.schedulerControl1.Views.DayView.TimeRulers.Add(timeRuler1);
@@ -126,6 +126,7 @@ namespace SchedulerProject {
             this.dateNavigator1.Dock = System.Windows.Forms.DockStyle.Right;
             this.dateNavigator1.Location = new System.Drawing.Point(607, 39);
             this.dateNavigator1.Name = "dateNavigator1";
+            this.dateNavigator1.CellPadding = new System.Windows.Forms.Padding(2);
             this.dateNavigator1.SchedulerControl = this.schedulerControl1;
             this.dateNavigator1.Size = new System.Drawing.Size(179, 469);
             this.dateNavigator1.TabIndex = 2;
@@ -140,9 +141,10 @@ namespace SchedulerProject {
             this.Controls.Add(this.dateNavigator1);
             this.Controls.Add(this.panelControl1);
             this.Name = "Form1";
-            this.Text = "SchedulerProject";
+            this.Text = "How to partially color the appointment rectangle to indicate task progress";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.schedulerControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.schedulerStorage1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.schedulerDataStorage1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
@@ -156,7 +158,7 @@ namespace SchedulerProject {
         #endregion
 
         private DevExpress.XtraScheduler.SchedulerControl schedulerControl1;
-        private DevExpress.XtraScheduler.SchedulerStorage schedulerStorage1;
+        private DevExpress.XtraScheduler.SchedulerDataStorage schedulerDataStorage1;
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraScheduler.DateNavigator dateNavigator1;
         private DevExpress.XtraEditors.ImageComboBoxEdit cbView;
